@@ -49,12 +49,17 @@
             // 
             // btnStart
             // 
+            this.btnStart.BackColor = System.Drawing.Color.Green;
+            this.btnStart.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.btnStart.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
+            this.btnStart.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.btnStart.ForeColor = System.Drawing.Color.White;
             this.btnStart.Location = new System.Drawing.Point(508, 272);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(126, 48);
             this.btnStart.TabIndex = 1;
             this.btnStart.Text = "START";
-            this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.UseVisualStyleBackColor = false;
             this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // timer1
